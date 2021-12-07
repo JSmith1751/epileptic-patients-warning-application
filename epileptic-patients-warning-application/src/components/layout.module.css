@@ -1,0 +1,99 @@
+html, body, div {
+    background-color: #333333;
+}
+
+.container, .navContainer {
+    margin: auto;
+    max-width: 500px;
+    font-family: sans-serif;
+    color: white;
+}
+nav, .navContainer {
+    background-color: rebeccapurple;
+}
+
+
+
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    border-radius: 15px;
+    border: 1px rebeccapurple solid;
+    background-color: lightgray;
+    
+}
+
+.nav-link-item, .nav-link-item-right {
+    padding-top: 10px;
+    padding-right: 2rem;
+}
+
+.nav-link-item:first-child{
+    padding-top: 0;
+}
+
+.nav-link-item-right {
+        float: right;
+ }
+
+
+.nav-link-item > img {
+    width: 30px;
+}
+
+.nav-link-text {
+    color: black;
+}
+
+h1 {
+    text-align: center;
+}
+
+.img, .navimg{
+    max-width: 100%;
+    height: auto;
+}
+
+.navimg {
+    height: 45px;
+}
+
+.seizureTypes {
+    width: 100%;
+    height: 100px;
+}
+
+.detailsfrm > input {
+    display: inline-block;
+    float: right;
+}
+
+.submit {
+    margin-top: 10px;
+}
+
+.close {
+    float: unset;
+}
+
+.frmCenter {
+    margin: auto;
+    display: table;
+}
+
+.table, .table > thead {
+    border: 3px solid black;
+    width: 100%;
+    height: 100%;
+}
+
+.searchWidth {
+    width: 100%;
+}
+
+.backSymbol {
+    float: left;
+}
+
